@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graficas</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+	<script src="javascript.js" defer></script>
+</head>
+<body>
+<section id="section">
+	<h1>Grafica</h1>
+	<div id="resultado">
+		<div>
+			<div id="grafica">
+				<canvas id="canvas"></canvas>
+			</div>
+		</div>
+	</div>
+	<div id="calculadora">
+		<div id="funcion">
+			<input type="text" id="in" disabled/>
+			<input type="text" id="res" disabled/>
+		</div>
+		<div id="botones">
+			<div class="numeros">
+				<button id="1">1</button>
+				<button id="2">2</button>
+				<button id="3">3</button>
+				<button id="4">4</button>
+				<button id="5">5</button>
+				<button id="6">6</button>
+				<button id="7">7</button>
+				<button id="8">8</button>
+				<button id="9">9</button>
+				<button id="0">0</button>
+				<button id="CE" class="clear">CE</button>
+				<button id="DEL" class="clear">⇠</button>
+			</div>
+			<div class="variables">
+				<button id="+">+</button>
+				<button id="-">-</button>
+				<button id="*">*</button>
+				<button id="/">/</button>
+				<button id="sqrt">√</button>
+				<button id="sin">sen</button>
+				<button id="cos">cos</button>
+				<button id="tan">tan</button>
+				<button id="(">(</button>
+				<button id=")">)</button>
+				<button id="x">x</button>
+				<button id="X²">X²</button>
+				<button id=".">.</button>
+				<button id="±" disabled>±</button>
+				<button id="igual">=</button>
+			</div>
+		</div>
+	</div>
+	<div id="reporte"></div>
+</section>
+</body>
+</html>
